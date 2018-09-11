@@ -6,6 +6,10 @@ I've designed this for my particular unknown-brand aluminum extrusion based rack
 
 Due to lighting constraints as well as privacy concerns with the location of the rack it is installed in, a picture of it in action is not provided.
 
+It may be moderately difficult to print as it is 190mm long and as such makes an excellent test of bed leveling.
+
+The mount is not entirely on a 1RU line, and the bottom bolt should be put in the bottom screw hole of a U, then the top goes where it fits.
+
 Here is a picture of the bracket itself. The apu2 goes on the end of the posts which have screws come in from the back.
 
 ![photo of bracket](bracket.png)
