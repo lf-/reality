@@ -19,3 +19,8 @@ Images:
 This is an image of an older prototype. Since then, I've shortened it slightly
 to ensure it cannot cause any interferences with the end of the X axis, and
 adjusted the tolerances of the M3 nuts so they don't fall out during assembly.
+
+## License
+As this part is based on a part licensed under the GNU GPLv2, it is also
+licensed under the GNU GPLv2. A copy of the license is available in the file
+LICENSE in this directory.
