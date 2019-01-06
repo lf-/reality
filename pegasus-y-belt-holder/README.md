@@ -7,7 +7,8 @@ Because printers usually blow out corners, this part will require filing unless
 printed on an exceptionally well tuned printer.
 
 It is based on the Prusa i3 MK3 part, so the license for this specific part
-is GPL.
+is the GNU GPLv2. A copy of the license is available in the file LICENSE in
+this directory.
 
 ## Required hardware
 
