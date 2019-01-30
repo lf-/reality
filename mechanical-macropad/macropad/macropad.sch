@@ -2101,4 +2101,70 @@ Wire Wire Line
 	10450 4750 10550 4750
 Wire Wire Line
 	10450 4950 10550 4950
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5C527352
+P 11650 4600
+F 0 "H1" H 11750 4600 50  0000 L CNN
+F 1 "MountingHole" H 11750 4558 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 11650 4600 50  0001 C CNN
+F 3 "~" H 11650 4600 50  0001 C CNN
+	1    11650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5C528E4C
+P 11950 4600
+F 0 "H2" H 12050 4600 50  0000 L CNN
+F 1 "MountingHole" H 12050 4558 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 11950 4600 50  0001 C CNN
+F 3 "~" H 11950 4600 50  0001 C CNN
+	1    11950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5C52927D
+P 12550 4600
+F 0 "H4" H 12650 4600 50  0000 L CNN
+F 1 "MountingHole" H 12650 4558 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 12550 4600 50  0001 C CNN
+F 3 "~" H 12550 4600 50  0001 C CNN
+	1    12550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5C5295AF
+P 12250 4600
+F 0 "H3" H 12350 4600 50  0000 L CNN
+F 1 "MountingHole" H 12350 4558 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 12250 4600 50  0001 C CNN
+F 3 "~" H 12250 4600 50  0001 C CNN
+	1    12250 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11650 4700 11950 4700
+Connection ~ 11950 4700
+Wire Wire Line
+	11950 4700 12250 4700
+Connection ~ 12250 4700
+Wire Wire Line
+	12250 4700 12550 4700
+Wire Wire Line
+	12550 4700 12550 4900
+Connection ~ 12550 4700
+$Comp
+L power:GND #PWR06
+U 1 1 5C62D259
+P 12550 4900
+F 0 "#PWR06" H 12550 4650 50  0001 C CNN
+F 1 "GND" H 12555 4727 50  0000 C CNN
+F 2 "" H 12550 4900 50  0001 C CNN
+F 3 "" H 12550 4900 50  0001 C CNN
+	1    12550 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
