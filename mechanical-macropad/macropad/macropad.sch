@@ -26,17 +26,6 @@ F 3 "" H 8450 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L tmk_keyboard_parts:XTAL_GND X1
-U 1 1 5BFA5C84
-P 6300 4850
-F 0 "X1" H 6300 5142 60  0000 C CNN
-F 1 "XTAL_GND" H 6300 5036 60  0000 C CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering" H 6300 4850 60  0001 C CNN
-F 3 "" H 6300 4850 60  0000 C CNN
-	1    6300 4850
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C1
 U 1 1 5BFA6334
 P 5900 5150
@@ -72,11 +61,7 @@ $EndComp
 Wire Wire Line
 	5900 5050 5900 4850
 Wire Wire Line
-	5900 4850 6000 4850
-Wire Wire Line
 	6700 5050 6700 4850
-Wire Wire Line
-	6700 4850 6600 4850
 Wire Wire Line
 	5900 5250 6300 5250
 Wire Wire Line
@@ -2167,4 +2152,34 @@ F 3 "" H 12550 4900 50  0001 C CNN
 	1    12550 4900
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5C75B6CA
+P 6300 4850
+F 0 "Y1" H 6494 4896 50  0000 L CNN
+F 1 "Crystal_GND24" H 6494 4805 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering" H 6300 4850 50  0001 C CNN
+F 3 "~" H 6300 4850 50  0001 C CNN
+	1    6300 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4850 6700 4850
+Wire Wire Line
+	5900 4850 6150 4850
+$Comp
+L power:GND #PWR0127
+U 1 1 5C7ACB62
+P 6400 4450
+F 0 "#PWR0127" H 6400 4200 50  0001 C CNN
+F 1 "GND" V 6405 4322 50  0000 R CNN
+F 2 "" H 6400 4450 50  0001 C CNN
+F 3 "" H 6400 4450 50  0001 C CNN
+	1    6400 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 4650 6300 4450
+Wire Wire Line
+	6300 4450 6400 4450
 $EndSCHEMATC
