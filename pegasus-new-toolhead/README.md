@@ -4,6 +4,9 @@ This is a toolhead for the Pegasus which uses the E3D Titan, Noctua hot end
 fan, David Crocker optical bed probe (I do not recommend this for use on
 glass!) and a 40mm axial part cooling fan.
 
+A drawing showing the exact mounting holes on the Pegasus carriage is provided
+in PDF format to ease the process of designing other toolheads.
+
 ## Status
 This project is in a middle stage. I have not printed and tested the version
 here in master, however an earlier prototype is in service, albeit with not
