@@ -12,10 +12,10 @@
   (page USLetter portrait)
   (title_block
     (title "Custom Numpad/Macropad")
-    (date 2018-11-28)
-    (rev 0)
+    (date 2019-03-07)
+    (rev 0.2)
     (company lfcode.ca)
-    (comment 1 "Copyright (c) 2018 lf")
+    (comment 1 "Copyright (c) 2019 lf")
     (comment 2 "Licensed under TAPR Open Hardware License")
   )
 
@@ -43,7 +43,7 @@
   )
 
   (setup
-    (last_trace_width 0.375)
+    (last_trace_width 0.25)
     (user_trace_width 0.375)
     (user_trace_width 0.5)
     (user_trace_width 0.75)
@@ -3976,7 +3976,7 @@
       (net 55 Row7))
   )
 
-  (gr_text "Macropad v0.1\nhttps://lfcode.ca" (at 77.34375 30.84375) (layer F.SilkS) (tstamp 5C0E0118)
+  (gr_text "Macropad v0.2\nhttps://lfcode.ca" (at 77.34375 30.84375) (layer F.SilkS) (tstamp 5C0E0118)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_arc (start 147.9375 202.15625) (end 147.9375 203.15625) (angle -90) (layer Edge.Cuts) (width 0.2) (tstamp 5C0E04ED))

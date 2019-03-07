@@ -6,10 +6,10 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Custom Numpad/Macro Pad"
-Date "2018-11-28"
-Rev "0"
+Date "2019-03-07"
+Rev "0.2"
 Comp "lfcode.ca"
-Comment1 "Copyright (c) 2018 lf"
+Comment1 "Copyright (c) 2019 lf"
 Comment2 "Licensed under TAPR Open Hardware License"
 Comment3 ""
 Comment4 ""
@@ -2182,10 +2182,10 @@ Wire Wire Line
 Wire Wire Line
 	6300 4450 6400 4450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0128
 U 1 1 5C80B0DF
 P 7350 3200
-F 0 "#PWR?" H 7350 2950 50  0001 C CNN
+F 0 "#PWR0128" H 7350 2950 50  0001 C CNN
 F 1 "GND" V 7355 3072 50  0000 R CNN
 F 2 "" H 7350 3200 50  0001 C CNN
 F 3 "" H 7350 3200 50  0001 C CNN
