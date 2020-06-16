@@ -9,8 +9,8 @@ in PDF format to ease the process of designing other toolheads.
 
 ## Status
 This project is in a middle stage. I have not printed and tested the version
-here in master, however an earlier prototype is in service, albeit with not
-that many production hours on it. The version in master fixes issues with
+here in `main`, however an earlier prototype is in service, albeit with not
+that many production hours on it. The version in `main` fixes issues with
 interferences of the M3 bolt head for the belt holder as well as an
 interference when using thick part cooling fans.
 
